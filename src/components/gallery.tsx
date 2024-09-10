@@ -175,7 +175,9 @@ const CustomCardHeader = ({
   return (
     <CardHeader className="absolute z-10 top-1 flex-col !items-start">
       <p className="text-tiny text-white/60 uppercase font-bold">{title}</p>
-      <h4 className="text-white font-medium text-large">{description}</h4>
+      <h4 className="text-white font-medium text-large text-left">
+        {description}
+      </h4>
     </CardHeader>
   );
 };
