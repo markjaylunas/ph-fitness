@@ -21,10 +21,10 @@ export default function Hero() {
 
         <div className="flex flex-col sm:flex-row gap-4 mt-8">
           <Button variant="solid" color="primary" size="lg">
-            View Packages
+            Start Training
           </Button>
           <Button variant="bordered" color="primary" size="lg">
-            Start Training
+            View Packages
           </Button>
         </div>
       </div>
