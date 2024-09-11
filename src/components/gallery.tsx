@@ -28,7 +28,7 @@ export default function Gallery() {
     <section className="flex flex-col justify-center items-center gap-8">
       <SectionTitle>Our Gallery</SectionTitle>
 
-      <div className="max-w-screen-xl gap-2 grid grid-cols-12 grid-rows-3 px-8">
+      <div className="max-w-screen-xl gap-2 sm:gap-4 grid grid-cols-12 grid-rows-3 px-8">
         <Card
           className="col-span-12 sm:col-span-4 h-[300px]"
           isPressable
