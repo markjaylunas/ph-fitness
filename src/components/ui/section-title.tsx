@@ -9,7 +9,7 @@ export function SectionTitle({
   return (
     <h2
       className={cn(
-        "scroll-m-20 border-b-4 border-secondary-300 w-fit pb-2 text-3xl font-semibold tracking-tight first:mt-0",
+        "scroll-m-20 border-b-2 border-secondary-400 w-fit pb-2 text-3xl font-semibold tracking-tight first:mt-0",
         className
       )}
       {...props}
