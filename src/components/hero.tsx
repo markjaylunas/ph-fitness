@@ -1,6 +1,7 @@
 import HeroImage from "@/assets/hero-image.png";
 import { Button } from "@nextui-org/react";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Hero() {
   return (
@@ -20,12 +21,16 @@ export default function Hero() {
         </p>
 
         <div className="flex flex-col sm:flex-row gap-4 mt-8">
-          <Button variant="solid" color="primary" size="lg">
-            Start Training
-          </Button>
-          <Button variant="bordered" color="primary" size="lg">
-            View Packages
-          </Button>
+          <Link href="/join">
+            <Button variant="solid" color="primary" size="lg">
+              Start Training
+            </Button>
+          </Link>
+          <Link href="#pricing">
+            <Button variant="bordered" color="primary" size="lg">
+              View Packages
+            </Button>
+          </Link>
         </div>
       </div>
 
