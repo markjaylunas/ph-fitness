@@ -11,7 +11,6 @@ export type BentoCard = {
   title: string;
   description: string;
   image: StaticImageData;
-  imageFull: StaticImageData;
 };
 
 export type Pricing = {
