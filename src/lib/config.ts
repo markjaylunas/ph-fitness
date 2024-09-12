@@ -25,12 +25,8 @@ export const routesConfig: RoutesConfig = {
       href: "/#pricing",
     },
     {
-      title: "Trainers",
-      href: "/#trainers",
-    },
-    {
-      title: "About",
-      href: "/#about",
+      title: "Gallery",
+      href: "/#gallery",
     },
   ],
 };

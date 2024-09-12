@@ -7,9 +7,13 @@ export default function Home() {
     <main className="flex flex-col min-h-screen pb-20 gap-16 font-[family-name:var(--font-geist-sans)]">
       <Hero />
 
-      <Gallery />
+      <div id="gallery">
+        <Gallery />
+      </div>
 
-      <Pricing />
+      <div id="pricing">
+        <Pricing />
+      </div>
     </main>
   );
 }
