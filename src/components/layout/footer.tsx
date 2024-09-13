@@ -1,10 +1,9 @@
-import Logo from "@/app/logo.svg";
 import { cn } from "@/lib/utils";
+import { Image } from "@nextui-org/react";
 import {
   IconBrandFacebookFilled,
   IconBrandInstagram,
 } from "@tabler/icons-react";
-import Image from "next/image";
 import { ReactNode } from "react";
 import Link from "../ui/link";
 
@@ -53,10 +52,10 @@ export default function Footer() {
         <div className="flex flex-col max-w-40">
           <div className="flex gap-2 items-center">
             <Image
-              src={Logo}
+              src="/logo.svg"
               alt="PH Fitness Logo"
               className="size-12"
-              unoptimized
+              width={120}
             />
             <p className="font-medium">PH Fitness</p>
           </div>

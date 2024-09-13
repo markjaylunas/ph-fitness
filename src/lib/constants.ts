@@ -1,41 +1,35 @@
-import LandscapeMin1 from "@/assets/gallery/landscape-1-min.jpg";
-import LandscapeMin2 from "@/assets/gallery/landscape-2-min.jpg";
-import LandscapeMin3 from "@/assets/gallery/landscape-3-min.jpg";
-import PortraitMin1 from "@/assets/gallery/portrait-1-min.jpg";
-import PortraitMin2 from "@/assets/gallery/portrait-2-min.jpg";
-import PortraitMin3 from "@/assets/gallery/portrait-3-min.jpg";
 import { BentoCard, Package } from "./types";
 
 export const BENTO_LIST: BentoCard[] = [
   {
     title: "Challenge Your Limits",
     description: "Strength and endurance at new heights",
-    image: PortraitMin3,
+    image: "/gallery/portrait-3.webp",
   },
   {
     title: "Train with Confidence",
     description: "Top-tier equipment for safe performance",
-    image: PortraitMin2,
+    image: "/gallery/portrait-2.webp",
   },
   {
     title: "Rest and Recover",
     description: "Energize with real-time workout streams",
-    image: PortraitMin1,
+    image: "/gallery/portrait-1.webp",
   },
   {
     title: "Lift Your Potential",
     description: "Strengthen with progressive weight training",
-    image: LandscapeMin3,
+    image: "/gallery/landscape-3.webp",
   },
   {
     title: "Build Strength with Precision",
     description: "Transform with expert-led training routines",
-    image: LandscapeMin2,
+    image: "/gallery/landscape-2.webp",
   },
   {
     title: "Train with Confidence",
     description: "Top-tier equipment for safe performance",
-    image: LandscapeMin1,
+    image: "/gallery/landscape-1.webp",
   },
 ];
 

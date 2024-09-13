@@ -1,5 +1,3 @@
-import { StaticImageData } from "next/image";
-
 export type NavItem = {
   title: string;
   href: string;
@@ -10,7 +8,7 @@ export type NavItem = {
 export type BentoCard = {
   title: string;
   description: string;
-  image: StaticImageData;
+  image: string;
 };
 
 export type Pricing = {
