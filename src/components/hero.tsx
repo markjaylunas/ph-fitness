@@ -22,12 +22,22 @@ export default function Hero() {
 
         <div className="flex flex-col sm:flex-row gap-4 mt-8">
           <Link href="/join">
-            <Button variant="solid" color="primary" size="lg">
+            <Button
+              variant="solid"
+              color="primary"
+              size="lg"
+              className="w-full sm:w-fit"
+            >
               Start Training
             </Button>
           </Link>
           <Link href="#pricing">
-            <Button variant="bordered" color="primary" size="lg">
+            <Button
+              variant="bordered"
+              color="primary"
+              size="lg"
+              className="w-full sm:w-fit"
+            >
               View Packages
             </Button>
           </Link>
